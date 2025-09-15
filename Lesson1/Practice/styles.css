@@ -1,0 +1,80 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+div {
+    width: 600px;
+    margin: 10px auto;
+    background-color: aliceblue;
+}
+
+
+.information, .edu, .skill, .contact {
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.information img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.information h2,
+.edu h2,
+.skill h2,
+.contact h2 {
+    text-align: center;
+}
+
+.information .card p {
+    display: block;
+    text-align: center;
+}
+
+.contact .card a {
+    display: inline-block;
+    padding: 15px;
+    background-color: aqua;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    margin: 0 20px
+}
+
+.contact .card {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact .card a:hover {
+    background-color: red;
+    color: white;
+}
+
+.contact .card .contact {
+    text-align: center;
+}
+
+p.email,
+p.phone {
+    display: inline-block;
+    
+}
+
+
+
+
+
