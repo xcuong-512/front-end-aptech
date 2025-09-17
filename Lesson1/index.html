@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Title</title>
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 style="color: #333; ">Hello T2508M</h1>
-    <p>Lớp học FPT Aptech, học kỳ 1, làm quen với lập trình Web.</p>
-    <p>
-        <b>Giáo viên: </b><i>Nguyễn Xuân Cường</i>
-    </p>
-    <p style="background-color: bisque; color: red; display: inline-block;">Lịch học: Sáng: 2-4-6</p>
-    <p>Môn học: HTML</p>
+    <div>
+        <h1 class="hello">Hello T2508M</h1>
+        <p class="description">Lớp học FPT Aptech, học kỳ 1, làm quen với lập trình Web.</p>
+        <p class="teacher">
+            <b>Giáo viên: </b><i>Nguyễn Xuân Cường</i>
+        </p>
+        <p class="time-table">Lịch học: Sáng: 2-4-6</p>
+        <p class="subject">Môn học: HTML</p>
+
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email" required placeholder="example@email.com"> <br>
+        <label for="fullname">Full name</label> <br>
+        <input type="text" id="fullname" name="fullname" required placeholder="VD. Nguyễn Văn A"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" name="password" id="password" required> <br>
+        <button id="btnRegister" class="my-btn" type="submit">Đăng ký</button>
+        <button id="btnFollow" class="my-btn">Theo dõi</button>
+    </div>
 </body>
 </html>

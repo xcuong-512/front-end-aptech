@@ -1,0 +1,63 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ccc;
+}
+
+div {
+    height: 500px;
+    width: 320px;
+    background-color: rgb(224, 224, 192);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px auto;
+}
+
+
+#btnRegister {
+    
+}
+
+#btnFollow {
+ 
+}
+
+.hello {
+    color: #333;
+}
+
+.time-table {
+    background-color: bisque; 
+    color: red; 
+    display: inline-block;
+}
+
+.my-btn:hover {
+    background-color: aliceblue;
+    color: red;
+    transition: 0.5s;
+}
+
+.my-btn {
+    height: auto; 
+    width: 80px; 
+    color: wheat; 
+    border-radius: 6px; 
+    padding: 12px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    background-color:brown;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    width: 90%;
+    border: none;
+    line-height: 28px;
+}
+
+input:active {
+    border: 1px solid green;
+}
